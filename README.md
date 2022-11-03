@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import FLOAT64_SMALLEST_NORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-smallest-normal@esm/index.mjs';
+import FLOAT64_SMALLEST_NORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-smallest-normal@v0.0.8-esm/index.mjs';
 ```
 
 ##### FLOAT64_SMALLEST_NORMAL
@@ -61,7 +61,7 @@ var bool = ( FLOAT64_SMALLEST_NORMAL === 2.2250738585072014e-308 );
 <body>
 <script type="module">
 
-import FLOAT64_SMALLEST_NORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-smallest-normal@esm/index.mjs';
+import FLOAT64_SMALLEST_NORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-smallest-normal@v0.0.8-esm/index.mjs';
 
 console.log( FLOAT64_SMALLEST_NORMAL );
 // => 2.2250738585072014e-308
