@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import FLOAT64_SMALLEST_NORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-smallest-normal@deno/mod.js';
+import FLOAT64_SMALLEST_NORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-smallest-normal@v0.1.1-deno/mod.js';
 ```
 
 ##### FLOAT64_SMALLEST_NORMAL
@@ -67,7 +67,7 @@ var bool = ( FLOAT64_SMALLEST_NORMAL === 2.2250738585072014e-308 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import FLOAT64_SMALLEST_NORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-smallest-normal@deno/mod.js';
+import FLOAT64_SMALLEST_NORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-smallest-normal@v0.1.1-deno/mod.js';
 
 console.log( FLOAT64_SMALLEST_NORMAL );
 // => 2.2250738585072014e-308
