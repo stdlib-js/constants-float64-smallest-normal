@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import FLOAT64_SMALLEST_NORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-smallest-normal@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-smallest-normal/tags). For example,
+
+```javascript
 import FLOAT64_SMALLEST_NORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-smallest-normal@v0.2.0-deno/mod.js';
 ```
 
@@ -67,7 +72,7 @@ var bool = ( FLOAT64_SMALLEST_NORMAL === 2.2250738585072014e-308 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import FLOAT64_SMALLEST_NORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-smallest-normal@v0.2.0-deno/mod.js';
+import FLOAT64_SMALLEST_NORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-smallest-normal@deno/mod.js';
 
 console.log( FLOAT64_SMALLEST_NORMAL );
 // => 2.2250738585072014e-308
